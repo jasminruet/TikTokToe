@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8"> 
+       <title>TikTokToe</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+      <h3 class="heading">First Player is 'X' and second player is 'O'</h3>
+     
+
+     
+      <div class="base-board">
+       
+          <input type="text" id="one" onclick="addInput(this.id);win(this.id,allDisabled);" readonly>
+        
+          <input type="text" id="two" onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+        
+          <input type="text" id="three"onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+        
+          <input type="text" id="four"onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+        
+          <input type="text" id="five" onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+        
+          <input type="text" id="six" onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+        
+          <input type="text" id="seven" onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+        
+          <input type="text" id="eight" onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+        
+          <input type="text" id="nine" onclick="addInput(this.id);win(this.id,allDisabled)" readonly>
+      </div>
+      <div id="abc">
+         <i class="fa-solid fa-xmark cross-icon" onclick="cross();"></i>
+         <p id="win-text" ><p>
+      </div>
+      <button id="open_board" type="button" onclick="open_base_board()">Reset</button>
+      
+    
+
+    
+
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/f34c0d761f.js" crossorigin="anonymous"></script>
+           
+   </body>
+</html>
+    
